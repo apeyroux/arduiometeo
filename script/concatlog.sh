@@ -1,3 +1,3 @@
 #!/bin/bash
 
-find log/ -name *.log -exec cat {} \; >> log/full.txt
+find log/ -name meteo-*.log -exec cat {} \; >> log/full.log
