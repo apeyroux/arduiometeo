@@ -2,7 +2,7 @@
 
 dthr=$(date +"%d%m%Y-%H%M%S")
 
-./meteo2csv.sh
-gnuplot ./gnuplot/meteo.gp > ./png/meteo-$dthr.png 
+~/codaz/meteostation/script/meteo2csv.sh
+gnuplot ~/codaz/meteostation/script/gnuplot/meteo.gp > ~/codaz/meteostation/script/png/meteo-$dthr.png 
 rm ./png/latest.png
-ln -s ~/codaz/meteostation/script/png/meteo-$dthr.png ./png/latest.png
+ln -s ~/codaz/meteostation/script/png/meteo-$dthr.png ~/codaz/meteostation/script/png/latest.png
