@@ -3,4 +3,9 @@ Sandbox for AM2302 and Arduino Ethernet
 Buy AM2302 (fr) : http://www.adafruit.com/products/393
 Doc AM2302 : http://meteobox.tk/files/AM2302.pdf
 Photo : https://pbs.twimg.com/media/BOp0NXiCAAAIm0n.jpg:small 
+(https://github.com/j4/arduiometeo/blob/master/script/png/meteo-08072013-235901.png "Exemple with gnuplot script")
 
+arduino/checkhum.ino - This is the web server. It answers a simple web service in json. ({temp:xx.xx,hum:xx.xx})
+arduino/DHT - This is lib for use AM2302. Add to /usr/share/arduino/libraries/DTH
+script - This is a series of dirty script. They can transform the json webservice in csv and make a png image with gnuplot. 
+This is very gruick gruick but it's sandbox ;)
